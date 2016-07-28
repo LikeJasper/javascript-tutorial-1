@@ -16,7 +16,8 @@ const createTextElement = text => {
 }
 
 const createDeleteButtonElement = () => {
-  console.log("Creating delete button element")
+  const deleteButtonElement = document.createElement("button")
+  return deleteButtonElement
 }
 
 const createNewTodoItemElement = text => {
