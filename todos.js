@@ -18,6 +18,7 @@ const createTextElement = text => {
 const createDeleteButtonElement = () => {
   const deleteButtonElement = document.createElement("button")
   deleteButtonElement.innerText = "x"
+  deleteButtonElement.addEventListener("click", deleteTodoItem)
   return deleteButtonElement
 }
 
