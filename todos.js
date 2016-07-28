@@ -1,5 +1,5 @@
 const getNewTodoText = () => {
-  return "Something we defined"
+  return todoInput.value
 }
 
 const createNewTodoItemElement = text => {
