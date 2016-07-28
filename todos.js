@@ -1,3 +1,7 @@
+const getNewTodoText = () => {
+  console.log("Getting new todo text")
+}
+
 const createNewTodoItemElement = text => {
   const newTodoItemElement = document.createElement("li")
   newTodoItemElement.innerText = text
