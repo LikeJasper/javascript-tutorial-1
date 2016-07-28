@@ -1,4 +1,5 @@
 const getNewTodoText = () => {
+  const todoInput = document.getElementById("todo-input")
   return todoInput.value
 }
 
