@@ -15,6 +15,10 @@ const createTextElement = text => {
   return textElement
 }
 
+const deleteTodoItem = () => {
+  todoListElement.removeChild()
+}
+
 const createDeleteButtonElement = () => {
   const deleteButtonElement = document.createElement("button")
   deleteButtonElement.innerText = "x"
