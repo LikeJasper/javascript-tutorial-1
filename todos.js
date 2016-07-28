@@ -17,6 +17,7 @@ const createTextElement = text => {
 
 const createDeleteButtonElement = () => {
   const deleteButtonElement = document.createElement("button")
+  deleteButtonElement.innerText = "x"
   return deleteButtonElement
 }
 
