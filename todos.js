@@ -1,5 +1,6 @@
 const createNewTodoItemElement = () => {
-  console.log("Creating new todo item element")
+  const newTodoItemElement = document.createElement("li")
+  return newTodoItemElement
 }
 
 const addNewTodo = () => {
