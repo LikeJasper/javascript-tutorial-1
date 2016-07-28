@@ -5,6 +5,9 @@ const getNewTodoText = () => {
 
 const createNewTodoItemElement = text => {
   const newTodoItemElement = document.createElement("li")
+  const checkboxElement = createCheckboxElement()
+  const textElement = createTextElement()
+
   newTodoItemElement.appendChild(checkboxElement)
   newTodoItemElement.appendChild(textElement)
   return newTodoItemElement
