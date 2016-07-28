@@ -15,6 +15,10 @@ const addNewTodo = text => {
   todoListElement.appendChild(newTodoItemElement)
 }
 
+const clearTodoInput = () => {
+  console.log("Clearing todo input")
+}
+
 const handleSubmit = (event) => {
   event.preventDefault()
   const text = getNewTodoText()
