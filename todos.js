@@ -16,6 +16,7 @@ const createTextElement = text => {
 }
 
 const deleteTodoItem = () => {
+  const todoListElement = document.getElementById("todo-list")
   todoListElement.removeChild()
 }
 
