@@ -9,9 +9,9 @@ const createCheckboxElement = () => {
   return checkboxElement
 }
 
-const createTextElement = () => {
+const createTextElement = text => {
   const textElement = document.createElement("span")
-  textElement.innerText = "Say hello to Pixsy"
+  textElement.innerText = text
   return textElement
 }
 
