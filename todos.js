@@ -15,10 +15,15 @@ const createTextElement = text => {
   return textElement
 }
 
+const createDeleteButtonElement = () => {
+  console.log("Creating delete button element")
+}
+
 const createNewTodoItemElement = text => {
   const newTodoItemElement = document.createElement("li")
   const checkboxElement = createCheckboxElement()
   const textElement = createTextElement(text)
+  const deleteButtonElement = createDeleteButtonElement()
 
   newTodoItemElement.appendChild(checkboxElement)
   newTodoItemElement.appendChild(textElement)
