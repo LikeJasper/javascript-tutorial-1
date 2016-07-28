@@ -20,10 +20,10 @@ const deleteTodoItem = (todoItemElement) => {
   todoListElement.removeChild(todoItemElement)
 }
 
-const createDeleteButtonElement = () => {
+const createDeleteButtonElement = todoItemElement => {
   const deleteButtonElement = document.createElement("button")
   deleteButtonElement.innerText = "x"
-  deleteButtonElement.addEventListener("click", deleteTodoItem)
+  deleteButtonElement.addEventListener("click", deleteTodoItem.bind(null, todoItemElement))
   return deleteButtonElement
 }
 
@@ -31,7 +31,7 @@ const createNewTodoItemElement = text => {
   const newTodoItemElement = document.createElement("li")
   const checkboxElement = createCheckboxElement()
   const textElement = createTextElement(text)
-  const deleteButtonElement = createDeleteButtonElement()
+  const deleteButtonElement = createDeleteButtonElement(newTodoItemElement)
 
   newTodoItemElement.appendChild(checkboxElement)
   newTodoItemElement.appendChild(deleteButtonElement)
