@@ -16,6 +16,7 @@ const addNewTodo = text => {
 }
 
 const clearTodoInput = () => {
+  const todoInput = document.getElementById("todo-input")
   todoInput.value = ""
 }
 
