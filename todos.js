@@ -1,1 +1,3 @@
-console.log('Hello Pixsy!')
+window.onload = () => {
+  formElement.addEventListener("submit", handleSubmit)
+}
