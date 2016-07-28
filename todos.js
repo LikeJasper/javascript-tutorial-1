@@ -18,7 +18,7 @@ const createTextElement = text => {
 const createNewTodoItemElement = text => {
   const newTodoItemElement = document.createElement("li")
   const checkboxElement = createCheckboxElement()
-  const textElement = createTextElement()
+  const textElement = createTextElement(text)
 
   newTodoItemElement.appendChild(checkboxElement)
   newTodoItemElement.appendChild(textElement)
