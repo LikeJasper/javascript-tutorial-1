@@ -12,7 +12,8 @@ const addNewTodo = text => {
 
 const handleSubmit = (event) => {
   event.preventDefault()
-  addNewTodo()
+  const text = getNewTodoText()
+  addNewTodo(text)
 }
 
 window.onload = () => {
