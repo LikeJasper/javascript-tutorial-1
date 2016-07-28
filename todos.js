@@ -1,4 +1,5 @@
 const addNewTodo = () => {
+  const todoListElement = document.getElementById("todo-list")
   todoListElement.appendChild()
 }
 
