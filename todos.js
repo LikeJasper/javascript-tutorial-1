@@ -4,9 +4,9 @@ const createNewTodoItemElement = text => {
   return newTodoItemElement
 }
 
-const addNewTodo = () => {
+const addNewTodo = text => {
   const todoListElement = document.getElementById("todo-list")
-  const newTodoItemElement = createNewTodoItemElement()
+  const newTodoItemElement = createNewTodoItemElement(text)
   todoListElement.appendChild(newTodoItemElement)
 }
 
