@@ -1,5 +1,5 @@
 const addNewTodo = () => {
-  console.log("Adding new todo!")
+  todoListElement.appendChild()
 }
 
 const handleSubmit = (event) => {
