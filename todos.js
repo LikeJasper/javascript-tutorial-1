@@ -3,6 +3,14 @@ const getNewTodoText = () => {
   return todoInput.value
 }
 
+const createCheckboxElement = () => {
+  console.log("Creating checkbox element")
+}
+
+const createTextElement = () => {
+  console.log("Creating text element")
+}
+
 const createNewTodoItemElement = text => {
   const newTodoItemElement = document.createElement("li")
   const checkboxElement = createCheckboxElement()
