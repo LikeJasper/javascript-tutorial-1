@@ -1,5 +1,6 @@
 const createNewTodoItemElement = () => {
   const newTodoItemElement = document.createElement("li")
+  newTodoItemElement.innerText = "Learn coding"
   return newTodoItemElement
 }
 
