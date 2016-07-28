@@ -15,9 +15,9 @@ const createTextElement = text => {
   return textElement
 }
 
-const deleteTodoItem = () => {
+const deleteTodoItem = (todoItemElement) => {
   const todoListElement = document.getElementById("todo-list")
-  todoListElement.removeChild()
+  todoListElement.removeChild(todoItemElement)
 }
 
 const createDeleteButtonElement = () => {
