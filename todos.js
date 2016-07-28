@@ -1,6 +1,11 @@
+const createNewTodoItemElement = () => {
+  console.log("Creating new todo item element")
+}
+
 const addNewTodo = () => {
   const todoListElement = document.getElementById("todo-list")
-  todoListElement.appendChild()
+  const newTodoItemElement = createNewTodoItemElement()
+  todoListElement.appendChild(newTodoItemElement)
 }
 
 const handleSubmit = (event) => {
