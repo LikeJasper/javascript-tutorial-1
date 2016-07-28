@@ -4,11 +4,13 @@ const getNewTodoText = () => {
 }
 
 const createCheckboxElement = () => {
-  console.log("Creating checkbox element")
+  const checkboxElement = document.createElement("input")
+  return checkboxElement
 }
 
 const createTextElement = () => {
-  console.log("Creating text element")
+  const textElement = document.createElement("span")
+  return textElement
 }
 
 const createNewTodoItemElement = text => {
