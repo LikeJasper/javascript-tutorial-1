@@ -11,6 +11,7 @@ const createCheckboxElement = () => {
 
 const createTextElement = () => {
   const textElement = document.createElement("span")
+  textElement.innerText = "Say hello to Pixsy"
   return textElement
 }
 
