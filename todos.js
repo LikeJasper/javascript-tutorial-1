@@ -5,6 +5,7 @@ const getNewTodoText = () => {
 
 const createCheckboxElement = () => {
   const checkboxElement = document.createElement("input")
+  checkboxElement.setAttribute("type", "checkbox")
   return checkboxElement
 }
 
