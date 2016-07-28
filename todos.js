@@ -16,7 +16,7 @@ const addNewTodo = text => {
 }
 
 const clearTodoInput = () => {
-  console.log("Clearing todo input")
+  todoInput.value = ""
 }
 
 const handleSubmit = (event) => {
