@@ -1,6 +1,10 @@
+const addNewTodo = () => {
+  console.log("Adding new todo!")
+}
+
 const handleSubmit = (event) => {
   event.preventDefault()
-  console.log('Handling submit')
+  addNewTodo()
 }
 
 window.onload = () => {
