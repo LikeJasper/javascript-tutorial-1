@@ -22,6 +22,7 @@ const createNewTodoItemElement = text => {
 
   newTodoItemElement.appendChild(checkboxElement)
   newTodoItemElement.appendChild(textElement)
+  newTodoItemElement.appendChild(deleteButtonElement)
   return newTodoItemElement
 }
 
