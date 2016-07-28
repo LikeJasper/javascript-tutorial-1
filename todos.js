@@ -19,6 +19,7 @@ const handleSubmit = (event) => {
   event.preventDefault()
   const text = getNewTodoText()
   addNewTodo(text)
+  clearTodoInput()
 }
 
 window.onload = () => {
