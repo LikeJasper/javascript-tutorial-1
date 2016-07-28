@@ -1,6 +1,6 @@
-const createNewTodoItemElement = () => {
+const createNewTodoItemElement = text => {
   const newTodoItemElement = document.createElement("li")
-  newTodoItemElement.innerText = "Learn coding"
+  newTodoItemElement.innerText = text
   return newTodoItemElement
 }
 
